@@ -31,10 +31,14 @@ Written by Seve <seve@axelelettronica.it>.
 
 ## Releases
 ---
-#### v1.0.0 First Release
+#### v1.1.1 Second Release 18-Dec-2015
+* Change example to be more Arduino boards compatible and not only for ASME boards family.
+
 #### v1.1.0 Second Release 18-Dec-2015
 * Fixed Issue:<br>
     Fix Pressure example: Add Wire.begin() to initiate the Wire library and join the I2C bus<br>.
+
+#### v1.0.0 First Release
 
 ## Documentation
 --------------
@@ -60,4 +64,5 @@ Lesser General Public License for more details.
 You should have received a copy of the GNU Lesser General Public
 License along with this library; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+
 

@@ -19,7 +19,7 @@
 void setup() {
     //Initiate the Wire library and join the I2C bus
     Wire.begin();
-    
+    pinMode(PIN_LED_13, OUTPUT);
     smePressure.begin();
     SerialUSB.begin(115200);
 }
@@ -39,10 +39,10 @@ void loop() {
     SerialUSB.print(data);
     SerialUSB.println(" celsius");
 
-    ledBlueLight(LOW);
+    digitalWrite(PIN_LED_13, LOW);
     delay(100);
 
-    ledBlueLight(HIGH);    // turn the LED on
+    digitalWrite(PIN_LED_13, HIGH);    // turn the LED on
     delay(2000);           // wait for a second
 
 }
